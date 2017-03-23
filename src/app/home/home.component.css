@@ -62,96 +62,22 @@
     .col-12 {width: 100%;}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tab-menu-group{
-
-   display: inline-block;
-   margin-right: 15px;
-   margin-top: 15px;
-   text-align: center;
-}
-img {
-    border-radius: 50%;
-}
-.side-top{
-  background-color:#52BE80;
-  color:#ffffff;
-
-}
-.side-prof-img{
-  width: 14px;
-  padding-left: 24px;
-
-}
-.side-name{
-font-family:"Roboto Medium";
-font-size:14px;
-padding-left: 24px;
-padding-top: 14px;
-}
-.side-email{
-font-family:"Roboto Regular";
-font-size:14px;
-padding-left: 24px;
-padding-bottom: 8px;
-}
-.side-botton{
-padding-top: 8px;
-color: #000000;
-font-family: "Roboto Medium";
-font-size:14px;
-}
 .example-sidenav {
   padding: 20px;
   background-color: skyblue;
 }
 
-
-
-md-sidenav {
-  width: 250px;
-}
-
-.header {
-    background-color:#F39C12;
-    color: ;
-    padding: 15px;
-}
 md-toolbar{
   height: 64px;
-  background-color:#52BE80;
+  background-color:#33b5e5;;
   color: #ffffff;
   font-family: "Roboto Medium";
   font-size: 20px;
-  text-align: center;
 }
-.toolbar-icon{
 
-}
 .toolbar-heading{
   padding-left: 30px;
   
-}
-
-.aside {
-    background-color: ;
 }
 
 textarea {
