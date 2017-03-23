@@ -161,3 +161,13 @@ textarea {
 
     width: 80%;
 }
+
+.mtext-area {
+  position: relative;
+}
+
+.go-button {
+  position: absolute;
+  right: 10%;
+  bottom: -15%;
+}
