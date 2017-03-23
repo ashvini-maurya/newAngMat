@@ -1,3 +1,72 @@
-<p>
-  home works!
-</p>
+<div class="row">
+
+<div class="col-6 col-m-12">
+    <md-sidenav-container fullscreen>
+   
+    <md-sidenav #start>
+        <md-nav-list>
+          <div class="side-bottom">
+            <div class="example-sidenav">
+
+                <button md-menu-item>Item1 </button><br>
+
+                <button md-menu-item>Item2 </button><br>
+            
+                <button md-menu-item>Item3</button><br>
+
+                <button md-menu-item> Item4 </button>
+               
+            </div>
+
+          </div>
+  
+        </md-nav-list>
+
+    </md-sidenav>
+
+    <md-toolbar >
+      
+    <div class="toolbar-icon">
+      <button md-icon-button (click)="start.open()" >
+          <md-icon  >menu
+          </md-icon>
+       </button>
+    </div>
+
+    <div class="toolbar-heading">
+      Welcome!
+    </div>
+
+    <div class="toolbar-ricons" align="right">
+  
+      
+      <app-profile></app-profile>
+    </div>
+
+    </md-toolbar> 
+
+
+
+<!-- Main content -->
+    <div class="col-m-7 col-s-12 col-12" align="center">
+
+
+      <a md-raised-button color=""  >GDB</a>
+      <a md-raised-button color=""  >2000</a>
+      
+      <a md-raised-button color=""  ><img src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-2/512/copy-icon.png" height="30px" color="#0f9d58"></a>
+      <a md-raised-button color=""  >SGDB</a>
+
+      <br>
+      <br>
+    <div class="mtext-area" align="center">
+      <textarea style="background-color:black;color:white;"  rows="30" cols="120">                             
+</textarea>
+
+
+    </div>
+
+    <a md-raised-button color=""  >OK</a>
+    </div>
+
+    <div class="col-m-5 col-s-11">

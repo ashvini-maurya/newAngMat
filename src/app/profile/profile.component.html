@@ -1,0 +1,16 @@
+<button md-icon-button [mdMenuTriggerFor]="menu">
+  <md-icon>more_vert</md-icon>
+</button>
+<md-menu #menu="mdMenu">
+  <button md-menu-item (click)="option1()" >
+    <span>Option #1</span>
+  </button>
+  
+  <button md-menu-item (click)="option2()">
+    <span>Option #2</span>
+  </button>
+
+  <button md-menu-item (click)="option3()">
+    <span>Option #3</span>
+  </button>
+</md-menu>
